@@ -279,7 +279,7 @@
                         function loadMore() {
                             var amount = document.getElementsByClassName("product").length;
                             $.ajax({
-                                url: "/WebsiteBanGiay/home/load",
+                                url: "/WebsiteBanGiay/load",
                                 type: "get", //send it through get method
                                 data: {
                                     exits: amount
@@ -296,7 +296,7 @@
                         function loadMoreNike() {
                             var amountNike = document.getElementsByClassName("productNike").length;
                             $.ajax({
-                                url: "/loadNike",
+                                url: "/WebsiteBanGiay/loadNike",
                                 type: "get", //send it through get method
                                 data: {
                                     exitsNike: amountNike
@@ -313,7 +313,7 @@
                         function loadMoreAdidas() {
                             var amountAdidas = document.getElementsByClassName("productAdidas").length;
                             $.ajax({
-                                url: "/WebsiteBanGiay/home/loadAdidas",
+                                url: "/WebsiteBanGiay/loadAdidas",
                                 type: "get", //send it through get method
                                 data: {
                                     exitsAdidas: amountAdidas
