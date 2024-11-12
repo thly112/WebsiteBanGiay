@@ -43,7 +43,7 @@ public class DetailControl extends HttpServlet {
         ProductDAO daoP = new ProductDAO();
         AccountDAO daoA = new AccountDAO();
         Product p = daoP.getProductByID(id);
-        System.out.println(p) ;
+//        System.out.println(p) ;
 //        int cateIDProductDetail = daoP.getCateIDByProductID(id);
 //        List<Product> listRelatedProduct = dao.getRelatedProduct(cateIDProductDetail);
 //        

@@ -19,12 +19,12 @@ public class Product {
     private int cateID;
     private String model;
     private String color;
-//    private String delivery;
+    private String delivery;
     private String image2;
     private String image3;
     private String image4;
 	public Product(int id, String name, String image, double price, String title, String description,int cateID, String model,
-			String color,/* String delivery, */String image2, String image3, String image4) {
+			String color,String delivery, String image2, String image3, String image4) {
 		
 		this.id = id;
 		this.name = name;
@@ -35,7 +35,7 @@ public class Product {
                 this.cateID = cateID;
 		this.model = model;
 		this.color = color;
-//		this.delivery = delivery;
+		this.delivery = delivery;
 		this.image2 = image2;
 		this.image3 = image3;
 		this.image4 = image4;
@@ -46,7 +46,7 @@ public class Product {
 	@Override
 	public String toString() {
 		return "Product [id=" + id + ", name=" + name + ", image=" + image + ", price=" + price + ", title=" + title
-				+ ", description=" + description + "cateID=" + cateID +", model=" + model + ", color=" + color /*+ ", delivery=" + delivery*/
+				+ ", description=" + description + "cateID=" + cateID +", model=" + model + ", color=" + color + ", delivery=" + delivery
 				+ ", image2=" + image2 + ", image3=" + image3 + ", image4=" + image4 + "]";
 	}
 	public int getId() {
@@ -103,12 +103,12 @@ public class Product {
 	public void setColor(String color) {
 		this.color = color;
 	}
-//	public String getDelivery() {
-//		return delivery;
-//	}
-//	public void setDelivery(String delivery) {
-//		this.delivery = delivery;
-//	}
+	public String getDelivery() {
+		return delivery;
+	}
+	public void setDelivery(String delivery) {
+		this.delivery = delivery;
+	}
 	public String getImage2() {
 		return image2;
 	}

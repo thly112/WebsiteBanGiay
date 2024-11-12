@@ -39,7 +39,7 @@ public class ProductDAO {
                         rs.getInt(7),
                         rs.getString(9),
                         rs.getString(10),
-//                        rs.getString(11),
+                        rs.getString(11),
                         rs.getString(12),
                         rs.getString(13),
                         rs.getString(14)));
@@ -97,7 +97,7 @@ public class ProductDAO {
                         rs.getInt(7),
                         rs.getString(9),
                         rs.getString(10),
-//                        rs.getString(11),
+                        rs.getString(11),
                         rs.getString(12),
                         rs.getString(13),
                         rs.getString(14)));
@@ -125,7 +125,7 @@ public class ProductDAO {
                         rs.getInt(7),
                         rs.getString(9),
                         rs.getString(10),
-//                        rs.getString(11),
+                        rs.getString(11),
                         rs.getString(12),
                         rs.getString(13),
                         rs.getString(14));
@@ -151,7 +151,7 @@ public class ProductDAO {
                         rs.getInt(7),
                         rs.getString(9),
                         rs.getString(10),
-//                        rs.getString(11),
+                        rs.getString(11),
                         rs.getString(12),
                         rs.getString(13),
                         rs.getString(14)));
@@ -177,7 +177,7 @@ public class ProductDAO {
                         rs.getInt(7),
                         rs.getString(9),
                         rs.getString(10),
-//                        rs.getString(11),
+                        rs.getString(11),
                         rs.getString(12),
                         rs.getString(13),
                         rs.getString(14)));
@@ -205,7 +205,7 @@ public class ProductDAO {
                         rs.getInt(7),
                         rs.getString(9),
                         rs.getString(10),
-//                        rs.getString(11),
+                        rs.getString(11),
                         rs.getString(12),
                         rs.getString(13),
                         rs.getString(14)));
@@ -234,7 +234,7 @@ public class ProductDAO {
                         rs.getInt(7),
                         rs.getString(9),
                         rs.getString(10),
-//                        rs.getString(11),
+                        rs.getString(11),
                         rs.getString(12),
                         rs.getString(13),
                         rs.getString(14)));
